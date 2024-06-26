@@ -7,7 +7,6 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBit
 
 client.commands = new Collection();
 
-// Command handler
 const commandFiles = fs.readdirSync(path.join(__dirname, 'src', 'commands')).filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
@@ -15,7 +14,6 @@ for (const file of commandFiles) {
   client.commands.set(command.data.name, command);
 }
 
-// Event handler
 const eventFiles = fs.readdirSync(path.join(__dirname, 'src', 'events')).filter(file => file.endsWith('.js'));
 
 for (const file of eventFiles) {
