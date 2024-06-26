@@ -4,10 +4,6 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -37,7 +33,12 @@ Welcome to **Spark Discord Bot Handler**, a discord bot handler designed to make
     npm install
     ```
 
-4. **Starting the bot**
+4. **Registering Slash Commands**
+    ```sh
+    node deploy-commands.js
+    ```
+
+5. **Starting the bot**
     ```sh
     node .
     ```
