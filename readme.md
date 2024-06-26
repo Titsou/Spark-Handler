@@ -4,6 +4,10 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 
@@ -20,12 +24,12 @@ Welcome to **Spark Discord Bot Handler**, a discord bot handler designed to make
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/awesomewebapp.git
+   git clone https://github.com/Titsou/Spark-Handler.git
    ```
 
 2. **Navigate to the project directory**
     ```sh
-    cd awesomewebapp
+    cd spark-handler
     ```
 
 3. **Install dependencies**
