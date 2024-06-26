@@ -3,26 +3,11 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
-Welcome to **AwesomeWebApp**, a web application designed to make your life easier. Whether you're managing tasks, scheduling events, or collaborating with your team, AwesomeWebApp provides a seamless and intuitive experience.
-
-![Screenshot](assets/screenshot.png)
-
-## Features
-
-- **Task Management**: Organize your tasks with ease.
-- **Event Scheduling**: Plan your events and set reminders.
-- **Collaboration**: Share tasks and events with your team.
-- **Responsive Design**: Access from any device.
-- **Customizable Themes**: Personalize your app appearance.
+Welcome to **Spark Discord Bot Handler**, a discord bot handler designed to make your life easier. Whether you're new, or you're an experienced developer, this handler provides a seamless and intuitive experience.
 
 ## Installation
 
@@ -37,3 +22,20 @@ Welcome to **AwesomeWebApp**, a web application designed to make your life easie
    ```sh
    git clone https://github.com/yourusername/awesomewebapp.git
    ```
+
+2. **Navigate to the project directory**
+    ```sh
+    cd awesomewebapp
+    ```
+
+3. **Install dependencies**
+    ```sh
+    npm install
+    ```
+
+4. **Starting the bot**
+    ```sh
+    node .
+    ```
+
+## Hope you have fun! If you need any support please join [this](https://discord.gg/xrhruvue5U) Discord server.
